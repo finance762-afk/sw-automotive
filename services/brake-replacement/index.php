@@ -160,6 +160,113 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .svc-cta-btns { flex-direction: column; align-items: center; }
   .svc-cta-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
 }
+
+/* ================================================================
+   ENHANCED COMPONENT STYLES — BRAKE REPLACEMENT
+================================================================ */
+
+/* Safety stat boxes — hover feedback */
+.brake-stat-box {
+  transition: background var(--transition-base),
+              border-color var(--transition-base);
+}
+.brake-stat-box:hover {
+  background: rgba(255,255,255,0.09);
+  border-color: rgba(var(--color-accent-rgb), 0.30);
+}
+
+/* Warning list — item spacing */
+.brake-warning-list li {
+  line-height: 1.58;
+  padding-block: var(--space-xs);
+}
+
+/* Why card icon hover */
+.why-card:hover .why-icon {
+  background: var(--color-primary);
+  color: #fff;
+}
+.why-card:hover .why-icon i,
+.why-card:hover .why-icon svg {
+  color: var(--color-accent);
+}
+
+/* Answer-first — subtle tinted bg */
+.svc-answer-first {
+  background: rgba(var(--color-accent-rgb), 0.04);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* FAQ header centering */
+.faq-svc .section-title {
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
+}
+.faq-svc .section-title .eyebrow-label {
+  justify-content: center;
+  display: flex;
+}
+
+/* Process card text alignment */
+.proc-card p {
+  text-align: center;
+  max-width: 24ch;
+  margin-inline: auto;
+}
+
+/* Closing CTA eyebrow */
+.svc-closing-cta .eyebrow-label {
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+.svc-cta-btns {
+  margin-top: var(--space-xl);
+}
+
+/* Focus-visible */
+.svc-hero-actions .btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Responsive — brake stat side at 1023px */
+@media (max-width: 1023px) {
+  .brake-stat-side {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .faq-svc .section-title .eyebrow-label {
+    justify-content: flex-start;
+  }
+}
+
+/* Responsive — mobile refinements */
+@media (max-width: 767px) {
+  .brake-safety-section {
+    padding: var(--space-2xl) var(--space-md);
+  }
+  .brake-stat-num {
+    font-size: 2.2rem;
+  }
+  .brake-stat-label {
+    font-size: 0.72rem;
+  }
+  .why-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .svc-closing-cta {
+    padding: var(--space-3xl) var(--space-md);
+  }
+  .related-svc-section {
+    padding-inline: var(--space-md);
+  }
+}
 </style>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 

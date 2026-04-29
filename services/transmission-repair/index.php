@@ -126,6 +126,142 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .svc-cta-btns { flex-direction: column; align-items: center; }
   .svc-cta-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
 }
+
+/* ================================================================
+   ENHANCED COMPONENT STYLES — TRANSMISSION REPAIR
+================================================================ */
+
+/* Trans type cards — interaction enhancement */
+.trans-type-card {
+  border: 1px solid rgba(var(--color-primary-rgb), 0.10);
+  transition: transform var(--transition-base),
+              box-shadow var(--transition-base),
+              border-color var(--transition-base);
+}
+.trans-type-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(var(--color-accent-rgb), 0.28);
+}
+.trans-type-header {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-primary-dark) 100%
+  );
+  border-bottom: 2px solid rgba(var(--color-accent-rgb), 0.28);
+}
+.trans-type-body ul li {
+  padding-block: var(--space-xs);
+  border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.05);
+  line-height: 1.55;
+}
+.trans-type-body ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Why card — icon hover state */
+.why-card:hover .why-icon {
+  background: var(--color-primary);
+  color: #fff;
+}
+.why-card:hover .why-icon i,
+.why-card:hover .why-icon svg {
+  color: var(--color-accent);
+}
+
+/* Answer-first block — subtle bg tint */
+.svc-answer-first {
+  background: rgba(var(--color-accent-rgb), 0.04);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* FAQ section header alignment */
+.faq-svc .section-title {
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
+}
+.faq-svc .section-title .eyebrow-label {
+  justify-content: center;
+  display: flex;
+}
+
+/* Related services intro spacing */
+.related-svc-section .section-title {
+  margin-bottom: var(--space-xl);
+}
+
+/* Process card paragraph alignment */
+.proc-card p {
+  text-align: center;
+  max-width: 24ch;
+  margin-inline: auto;
+}
+
+/* Closing CTA eyebrow + action spacing */
+.svc-closing-cta .eyebrow-label {
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+.svc-cta-btns {
+  margin-top: var(--space-xl);
+}
+
+/* Focus-visible: keyboard navigation */
+.svc-hero-actions .btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+.svc-breadcrumb a:focus-visible {
+  outline: 1px solid rgba(var(--color-accent-rgb), 0.70);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+/* Responsive — tablet portrait */
+@media (max-width: 1023px) {
+  .trans-type-grid {
+    max-width: 660px;
+    margin-inline: auto;
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .faq-svc .section-title .eyebrow-label {
+    justify-content: flex-start;
+  }
+  .svc-closing-cta h2 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+  }
+}
+
+/* Responsive — mobile refinements */
+@media (max-width: 767px) {
+  .trans-type-header h3 {
+    font-size: 1.15rem;
+  }
+  .trans-type-body {
+    padding: var(--space-md);
+  }
+  .trans-type-body ul li {
+    font-size: 0.86rem;
+  }
+  .why-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+  .why-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .svc-closing-cta {
+    padding: var(--space-3xl) var(--space-md);
+  }
+}
 </style>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 

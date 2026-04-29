@@ -171,6 +171,120 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .svc-cta-btns { flex-direction: column; align-items: center; }
   .svc-cta-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
 }
+
+/* ================================================================
+   ENHANCED COMPONENT STYLES — OIL CHANGES
+================================================================ */
+
+/* Oil type card header — hover treatment */
+.oil-type-card:hover .oil-type-header {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-dark) 0%,
+    var(--color-secondary) 100%
+  );
+}
+
+/* Oil type body list spacing */
+.oil-type-body ul li {
+  padding-block: var(--space-xs);
+  border-bottom: 1px solid rgba(var(--color-primary-rgb), 0.05);
+  line-height: 1.55;
+}
+.oil-type-body ul li:last-child {
+  border-bottom: none;
+}
+
+/* Price display — subtle bg */
+.oil-type-price {
+  background: rgba(var(--color-primary-rgb), 0.04);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
+  margin-top: var(--space-md);
+}
+
+/* Why card icon hover */
+.why-card:hover .why-icon {
+  background: var(--color-primary);
+  color: #fff;
+}
+.why-card:hover .why-icon i,
+.why-card:hover .why-icon svg {
+  color: var(--color-accent);
+}
+
+/* Answer-first block tint */
+.svc-answer-first {
+  background: rgba(var(--color-accent-rgb), 0.04);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* FAQ header centering */
+.faq-svc .section-title {
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
+}
+.faq-svc .section-title .eyebrow-label {
+  justify-content: center;
+  display: flex;
+}
+
+/* Process card text */
+.proc-card p {
+  text-align: center;
+  max-width: 24ch;
+  margin-inline: auto;
+}
+
+/* Closing CTA eyebrow */
+.svc-closing-cta .eyebrow-label {
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+.svc-cta-btns {
+  margin-top: var(--space-xl);
+}
+
+/* Focus-visible */
+.svc-hero-actions .btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Responsive — tablet */
+@media (max-width: 1023px) {
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .faq-svc .section-title .eyebrow-label {
+    justify-content: flex-start;
+  }
+}
+
+/* Responsive — mobile refinements */
+@media (max-width: 767px) {
+  .oil-type-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin-inline: auto;
+  }
+  .oil-type-header h3 {
+    font-size: 1.15rem;
+  }
+  .oil-type-body {
+    padding: var(--space-md);
+  }
+  .why-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .svc-closing-cta {
+    padding: var(--space-3xl) var(--space-md);
+  }
+}
 </style>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 

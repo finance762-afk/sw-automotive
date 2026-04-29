@@ -189,6 +189,90 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .svc-cta-btns { flex-direction: column; align-items: center; }
   .svc-cta-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
 }
+
+/* ================================================================
+   ENHANCED COMPONENT STYLES — DIESEL REPAIR
+================================================================ */
+
+/* Why card icon hover */
+.why-card:hover .why-icon {
+  background: var(--color-primary);
+  color: #fff;
+}
+.why-card:hover .why-icon i,
+.why-card:hover .why-icon svg {
+  color: var(--color-accent);
+}
+
+/* Diesel brand card detail */
+.diesel-brand-card strong {
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.03em;
+}
+.diesel-brand-card span {
+  line-height: 1.4;
+}
+
+/* Answer-first block tint */
+.svc-answer-first {
+  background: rgba(var(--color-accent-rgb), 0.04);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* FAQ wrapper header centering */
+.faq-svc .section-title {
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
+}
+.faq-svc .section-title .eyebrow-label {
+  justify-content: center;
+  display: flex;
+}
+
+/* Process card text */
+.proc-card p {
+  text-align: center;
+  max-width: 24ch;
+  margin-inline: auto;
+}
+
+/* Closing CTA eyebrow */
+.svc-closing-cta .eyebrow-label {
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+.svc-cta-btns {
+  margin-top: var(--space-xl);
+}
+
+/* Focus-visible */
+.svc-hero-actions .btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Mobile refinements */
+@media (max-width: 767px) {
+  .diesel-brand-card {
+    padding: var(--space-md) var(--space-sm);
+  }
+  .diesel-brand-card strong {
+    font-size: 1rem;
+  }
+  .why-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+  .faq-svc .section-title {
+    text-align: left;
+  }
+  .faq-svc .section-title .eyebrow-label {
+    justify-content: flex-start;
+  }
+  .svc-closing-cta {
+    padding: var(--space-3xl) var(--space-md);
+  }
+}
 </style>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
