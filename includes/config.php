@@ -3,6 +3,7 @@
  * SW Automotive — Site Configuration
  */
 
+$slug            = 'sw-automotive';
 $siteName        = 'SW Automotive';
 $tagline         = "Your Car's Best Friend in Manassas";
 $phone           = '';
