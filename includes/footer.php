@@ -68,7 +68,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
             <li><a href="/services"><strong>All Services &rarr;</strong></a></li>
           </ul>
           <?php endif; ?>
-          <h4 style="margin-top: var(--space-6);">Service Areas</h4>
+          <h4 style="margin-top: var(--space-lg);">Service Areas</h4>
           <ul>
             <?php foreach (array_slice($serviceAreas, 0, 5) as $area): ?>
             <li><a href="/service-area#<?php echo htmlspecialchars($area['slug']); ?>"><?php echo htmlspecialchars($area['city']); ?>, <?php echo htmlspecialchars($area['state']); ?></a></li>
@@ -101,7 +101,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
               <span><?php echo htmlspecialchars($hoursDisplay); ?></span>
             </li>
           </ul>
-          <a href="/contact" class="btn btn-accent btn-sm" style="margin-top: var(--space-4); width:100%; justify-content:center; display:inline-flex;">
+          <a href="/contact" class="btn btn-accent btn-sm" style="margin-top: var(--space-md); width:100%; justify-content:center; display:inline-flex;">
             Get a Free Estimate
           </a>
         </div>

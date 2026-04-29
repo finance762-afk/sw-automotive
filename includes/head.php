@@ -116,6 +116,8 @@ if (!empty($_sameAs)) {
   <link rel="preload" as="image" href="<?php echo htmlspecialchars($heroPreloadImage); ?>">
   <?php endif; ?>
 
+  <!-- Preload Google Fonts stylesheet (async load below) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"></noscript>
 
@@ -127,8 +129,22 @@ if (!empty($_sameAs)) {
 
   <meta name="theme-color" content="#1a2b3c">
 
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
   <?php if (isset($currentPage) && $currentPage === 'home' && !empty($googleSearchConsoleId)): ?>
   <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleSearchConsoleId); ?>">
+  <?php endif; ?>
+
+  <?php if (!empty($googleAnalyticsId) && $googleAnalyticsId !== 'G-XXXXXXXXXX'): ?>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo htmlspecialchars($googleAnalyticsId); ?>"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','<?php echo htmlspecialchars($googleAnalyticsId); ?>');</script>
+  <?php else: ?>
+  <!-- GA4 placeholder — replace G-XXXXXXXXXX in includes/config.php to activate -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
   <?php endif; ?>
 
   <script type="application/ld+json">

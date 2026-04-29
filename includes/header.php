@@ -39,7 +39,7 @@ $_phoneDisplay = !empty($phoneDisplay) ? $phoneDisplay : (!empty($phone) ? forma
               </a>
             </li>
             <?php endforeach; ?>
-            <li style="border-top:1px solid var(--color-gray-light); margin-top:4px; padding-top:4px;">
+            <li style="border-top:1px solid rgba(255,255,255,0.12); margin-top:var(--space-xs); padding-top:var(--space-xs);">
               <a href="/services"><strong>View All Services</strong></a>
             </li>
           </ul>
