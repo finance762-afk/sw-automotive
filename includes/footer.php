@@ -25,7 +25,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
 
         <div class="footer-col">
           <a href="/" class="site-logo footer-logo" aria-label="SW Automotive">
-            <img src="<?php echo htmlspecialchars($logoUrl); ?>" alt="SW Automotive" class="logo-img" width="160" height="52" loading="lazy">
+            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/logo/1777488955961-6uw3vo-Logo__2_.jpg" alt="SW Automotive logo" class="logo-img" width="160" height="52" loading="lazy">
           </a>
           <p class="footer-tagline"><?php echo htmlspecialchars($tagline); ?></p>
           <p>Honest auto repair, diesel service, and preventive maintenance for every make and model in Manassas and Prince William County. Factory-level expertise at a fair price.</p>
@@ -115,7 +115,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
     <div class="footer-entity" itemscope itemtype="https://schema.org/AutoRepair">
       <meta itemprop="name"      content="<?php echo htmlspecialchars($siteName); ?>">
       <meta itemprop="url"       content="<?php echo htmlspecialchars($domain); ?>">
-      <meta itemprop="telephone" content="(703) 555-0100"><?php /* NAP phone */ ?>
+      <meta itemprop="telephone" content="<?php echo htmlspecialchars($phone); ?>"><?php /* NAP phone */ ?>
       <meta itemprop="address"   content="<?php echo htmlspecialchars($addressFull); ?>">
       <p class="entity-text"><?php echo htmlspecialchars($_entityDesc); ?></p>
     </div>

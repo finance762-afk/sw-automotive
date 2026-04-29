@@ -7,7 +7,7 @@ $companyName       = $siteName;
 $companyEntityType = 'Limited Liability Company';
 $companyState      = 'Virginia';
 $companyEmail      = $email ?: 'info@sw-automotive.com';
-$companyPhone      = $phone ?: '(703) 555-0100';
+$companyPhone      = $phone;
 $companyAddress    = $addressFull;
 $lastUpdated       = 'April 29, 2026';
 

@@ -1280,7 +1280,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
         <div class="about-img-wrap img-reveal">
           <img
-            src="<?= htmlspecialchars($aboutPhoto) ?>"
+            src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489124708-tbcbgr-2020-08-21.jpg"
             alt="SW Automotive technicians working in the Manassas VA shop"
             width="600" height="520"
             loading="lazy"

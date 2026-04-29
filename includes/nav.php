@@ -25,7 +25,7 @@ $_phoneDisplay = !empty($phoneDisplay) ? $phoneDisplay : (!empty($phone) ? forma
     <div class="navbar-inner container">
 
       <a href="/" class="site-logo" aria-label="SW Automotive — Home">
-        <img src="<?php echo htmlspecialchars($logoUrl); ?>" alt="SW Automotive" class="logo-img" width="160" height="52" loading="eager">
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/logo/1777488955961-6uw3vo-Logo__2_.jpg" alt="SW Automotive logo" class="logo-img" width="160" height="52" loading="eager">
       </a>
 
       <ul class="nav-links" id="nav-links" role="list" aria-label="Site navigation">

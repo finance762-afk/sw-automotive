@@ -420,7 +420,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
       </div>
       <div class="area-intro__photo">
-        <img src="<?php echo $clientPhotos[4]; ?>"
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489121516-zgsofk-35A7AB29-CD6D-42C1-9F8B-4DBC0EED858A.jpeg"
              alt="SW Automotive serving Northern Virginia auto repair customers near Manassas"
              width="600" height="450" loading="lazy">
       </div>

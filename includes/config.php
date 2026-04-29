@@ -6,9 +6,9 @@
 $slug            = 'sw-automotive';
 $siteName        = 'SW Automotive';
 $tagline         = "Your Car's Best Friend in Manassas";
-$phone           = '(703) 555-0100';
+$phone           = '(703) 628-0442';
 $phoneSecondary  = '';
-$phoneDisplay    = '(703) 555-0100';
+$phoneDisplay    = '(703) 628-0442';
 $email           = 'info@sw-automotive.com';
 $ownerName       = '';
 
@@ -24,7 +24,7 @@ $siteUrl   = 'https://sw-automotive.com';
 $domain    = 'https://sw-automotive.com';
 $industry  = 'auto_repair';
 
-$googleAnalyticsId     = 'G-XXXXXXXXXX';
+$googleAnalyticsId     = ''; // Set GA4 measurement ID here to activate analytics (e.g. 'G-A1B2C3D4E5')
 $googleSearchConsoleId = '';
 
 $yearEstablished = 2022;

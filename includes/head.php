@@ -219,7 +219,7 @@ if (isset($currentPage) && $currentPage === 'home') {
   <meta name="google-site-verification" content="<?php echo htmlspecialchars($googleSearchConsoleId); ?>">
 <?php endif; ?>
 
-<?php if (!empty($googleAnalyticsId) && $googleAnalyticsId !== 'G-XXXXXXXXXX'): ?>
+<?php if (!empty($googleAnalyticsId)): ?>
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo htmlspecialchars($googleAnalyticsId); ?>"></script>
   <script>
@@ -229,8 +229,7 @@ if (isset($currentPage) && $currentPage === 'home') {
     gtag('config', '<?php echo htmlspecialchars($googleAnalyticsId); ?>');
   </script>
 <?php else: ?>
-  <!-- GA4 placeholder — replace G-XXXXXXXXXX in includes/config.php to activate -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+  <!-- GA4 not yet configured — set $googleAnalyticsId in includes/config.php to activate -->
 <?php endif; ?>
 
   <!-- LocalBusiness (AutoRepair) Schema -->

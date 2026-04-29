@@ -446,7 +446,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="about-story__visual">
         <div class="about-story__photo-stack">
           <div class="about-story__photo-main">
-            <img src="<?php echo $clientPhotos[2]; ?>"
+            <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489119856-1ybgxb-310074191_175091698429386_8965809722095922256_n.jpg"
                  alt="SW Automotive shop in Manassas VA — certified auto repair technicians"
                  width="480" height="600" loading="lazy">
           </div>
@@ -556,7 +556,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
       </div>
       <div class="about-certs__photo">
-        <img src="<?php echo $clientPhotos[0]; ?>"
+        <img src="https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489117834-7nskhk-481084972_666864315902592_7682232985457324721_n.jpg"
              alt="SW Automotive certified technician working in Manassas VA auto repair shop"
              width="600" height="450" loading="lazy">
       </div>
