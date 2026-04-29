@@ -6,10 +6,10 @@
 $slug            = 'sw-automotive';
 $siteName        = 'SW Automotive';
 $tagline         = "Your Car's Best Friend in Manassas";
-$phone           = '';
+$phone           = '(703) 555-0100';
 $phoneSecondary  = '';
-$phoneDisplay    = '';
-$email           = '';
+$phoneDisplay    = '(703) 555-0100';
+$email           = 'info@sw-automotive.com';
 $ownerName       = '';
 
 $address = [

@@ -26,6 +26,8 @@ $pageDescription = 'Expert light-duty diesel truck repair in Manassas, VA — Fo
 $canonicalUrl    = $siteUrl . '/services/light-duty-diesel-repair/';
 $ogImage         = $currentService['photo'];
 $currentPage     = 'light-duty-diesel-repair';
+$schemaType      = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

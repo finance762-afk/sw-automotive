@@ -26,6 +26,8 @@ $pageDescription = 'Expert small engine repair in Manassas, VA — lawn mowers, 
 $canonicalUrl    = $siteUrl . '/services/small-engine-repair/';
 $ogImage         = $currentService['photo'];
 $currentPage     = 'small-engine-repair';
+$schemaType      = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

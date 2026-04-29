@@ -35,6 +35,8 @@ $schemaMarkup = [
     ['@type' => 'ListItem', 'position' => 2, 'name' => 'Services', 'item' => $siteUrl . '/services/'],
   ],
 ];
+$schemaType   = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

@@ -14,6 +14,7 @@ $pageTitle       = 'Accessibility | ' . $siteName;
 $pageDescription = 'Accessibility statement for ' . $siteName . ' — our commitment to WCAG 2.1 AA compliance and digital accessibility.';
 $canonicalUrl    = $siteUrl . '/accessibility/';
 $currentPage     = 'legal';
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

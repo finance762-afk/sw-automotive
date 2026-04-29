@@ -48,29 +48,69 @@ function generateFAQSchema(array $faqs): array {
 function generateServiceSchema(array $service, array $faqs = []): array {
     global $siteName, $domain, $address, $phone, $logoUrl;
 
+    $serviceUrl = $domain . '/services/' . $service['slug'];
+
     $schema = [
         '@context' => 'https://schema.org',
-        '@graph'   => [[
-            '@type'       => 'Service',
-            '@id'         => $domain . '/services/' . $service['slug'] . '/#service',
-            'name'        => $service['name'],
-            'description' => $service['description'],
-            'url'         => $domain . '/services/' . $service['slug'],
-            'provider'    => [
-                '@type'   => 'LocalBusiness',
-                '@id'     => $domain . '/#business',
-                'name'    => $siteName,
-                'telephone' => $phone,
-                'address' => [
-                    '@type'           => 'PostalAddress',
-                    'addressLocality' => $address['city'],
-                    'addressRegion'   => $address['state'],
-                    'addressCountry'  => 'US',
+        '@graph'   => [
+            [
+                '@type'       => 'Service',
+                '@id'         => $serviceUrl . '/#service',
+                'name'        => $service['name'],
+                'description' => $service['description'],
+                'url'         => $serviceUrl,
+                'provider'    => [
+                    '@type'   => 'LocalBusiness',
+                    '@id'     => $domain . '/#business',
+                    'name'    => $siteName,
+                    'telephone' => $phone,
+                    'address' => [
+                        '@type'           => 'PostalAddress',
+                        'addressLocality' => $address['city'],
+                        'addressRegion'   => $address['state'],
+                        'addressCountry'  => 'US',
+                    ],
+                ],
+                'areaServed'  => ['@type' => 'City', 'name' => $address['city'] . ', ' . $address['state']],
+                'serviceType' => $service['name'],
+            ],
+            [
+                '@type'       => 'HowTo',
+                '@id'         => $serviceUrl . '/#howto',
+                'name'        => 'How to Get ' . $service['name'] . ' at SW Automotive in Manassas, VA',
+                'description' => 'Our straightforward 4-step process for ' . strtolower($service['name']) . ' in Manassas, VA.',
+                'step'        => [
+                    [
+                        '@type'    => 'HowToStep',
+                        'position' => 1,
+                        'name'     => 'Schedule Your Visit',
+                        'text'     => 'Call or submit a request online Mon–Fri, 8 AM–5 PM. We schedule efficiently with minimal wait times.',
+                        'url'      => $domain . '/contact',
+                    ],
+                    [
+                        '@type'    => 'HowToStep',
+                        'position' => 2,
+                        'name'     => 'Diagnosis & Inspection',
+                        'text'     => 'Our ASE certified technicians perform a thorough inspection using factory-level diagnostic tools to identify exactly what your vehicle needs.',
+                        'url'      => $serviceUrl,
+                    ],
+                    [
+                        '@type'    => 'HowToStep',
+                        'position' => 3,
+                        'name'     => 'Written Estimate',
+                        'text'     => 'You receive a complete written estimate before any work begins. No surprises — nothing proceeds without your approval.',
+                        'url'      => $serviceUrl,
+                    ],
+                    [
+                        '@type'    => 'HowToStep',
+                        'position' => 4,
+                        'name'     => 'Professional Repair & Quality Check',
+                        'text'     => 'We complete the approved work using quality parts and perform a final quality verification before returning your vehicle.',
+                        'url'      => $serviceUrl,
+                    ],
                 ],
             ],
-            'areaServed'  => ['@type' => 'City', 'name' => $address['city'] . ', ' . $address['state']],
-            'serviceType' => $service['name'],
-        ]],
+        ],
     ];
 
     if (!empty($faqs)) {

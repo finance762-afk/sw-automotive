@@ -15,6 +15,7 @@ $pageTitle       = 'Privacy Policy | ' . $siteName;
 $pageDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use, and protect your personal information.';
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
 $currentPage     = 'legal';
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
@@ -166,6 +167,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <li><strong>New Jersey</strong> — New Jersey Data Privacy Act (NJDPA)</li>
         <li><strong>Maryland</strong> — Maryland Online Data Privacy Act (MODPA)</li>
         <li><strong>Minnesota</strong> — Minnesota Consumer Data Privacy Act (MCDPA)</li>
+        <li><strong>Nevada</strong> — Nevada Privacy of Information Collected on the Internet from Consumers Act (NPICICA)</li>
+        <li><strong>Nebraska</strong> — Nebraska Data Privacy Act (NDPA)</li>
+        <li><strong>New Hampshire</strong> — New Hampshire Privacy Act (NHPA)</li>
+        <li><strong>Rhode Island</strong> — Rhode Island Data Transparency and Privacy Protection Act (RIDTPPA)</li>
+        <li><strong>Kentucky</strong> — Kentucky Consumer Data Protection Act (KCDPA)</li>
       </ul>
       <p>To exercise your rights under any state privacy law, contact us using the information in the "Contact Us" section below. We will respond within the timeframe required by your state's law.</p>
 

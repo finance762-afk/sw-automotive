@@ -41,6 +41,8 @@ $pageDescription = 'SW Automotive serves Manassas, Manassas Park, Haymarket, Gai
 $canonicalUrl    = $siteUrl . '/service-area';
 $ogImage         = $clientPhotos[5];
 $currentPage     = 'service-area';
+$schemaType      = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 /* Area-specific content for local SEO */
 $areaDetails = [
@@ -48,10 +50,10 @@ $areaDetails = [
     'manassas-park-va'  => ['blurb' => 'Just minutes from our shop in neighboring Manassas Park. We regularly service vehicles from VA-28 corridor commuters who need fast turnaround.'],
     'haymarket-va'      => ['blurb' => 'Haymarket drivers get the same-day service they need without driving to a dealership. We handle all makes and models from Dominion Valley to Wellington.'],
     'gainesville-va'    => ['blurb' => 'Gainesville is a 15-minute drive from our Manassas shop. We frequently service vehicles from Gainesville residents who want honest, certified auto repair close to home.'],
-    'woodbridge-va'     => ['blurb' => 'Woodbridge customers make the drive for diesel and transmission work that local shops can't handle. Our certified technicians are worth the trip.'],
+    'woodbridge-va'     => ['blurb' => 'Woodbridge customers make the drive for diesel and transmission work that local shops can\'t handle. Our certified technicians are worth the trip.'],
     'bristow-va'        => ['blurb' => 'Bristow and Braemar drivers have found SW Automotive for diesel repair and preventive maintenance they can count on year after year.'],
-    'nokesville-va'     => ['blurb' => 'Nokesville residents and rural Prince William County drivers bring us their work trucks and diesel pickups — we're one of the few shops in the area with certified diesel technicians.'],
-    'centreville-va'    => ['blurb' => 'Centreville drivers come to SW Automotive for complex repairs — transmission rebuilds, diesel diagnosis, and electrical work their regular shop couldn't figure out.'],
+    'nokesville-va'     => ['blurb' => 'Nokesville residents and rural Prince William County drivers bring us their work trucks and diesel pickups — we\'re one of the few shops in the area with certified diesel technicians.'],
+    'centreville-va'    => ['blurb' => 'Centreville drivers come to SW Automotive for complex repairs — transmission rebuilds, diesel diagnosis, and electrical work their regular shop couldn\'t figure out.'],
 ];
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

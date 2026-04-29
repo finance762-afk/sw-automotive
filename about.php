@@ -50,6 +50,8 @@ $pageDescription = 'Learn about SW Automotive — an ASE-certified auto repair s
 $canonicalUrl    = $siteUrl . '/about';
 $ogImage         = $clientPhotos[1];
 $currentPage     = 'about';
+$schemaType      = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

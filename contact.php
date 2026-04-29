@@ -45,6 +45,8 @@ $pageDescription = 'Contact SW Automotive in Manassas, VA. Schedule auto repair,
 $canonicalUrl    = $siteUrl . '/contact';
 $ogImage         = $clientPhotos[3];
 $currentPage     = 'contact';
+$schemaType      = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

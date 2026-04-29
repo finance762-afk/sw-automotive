@@ -1,0 +1,134 @@
+# SW Automotive — Full Reference
+
+> SW Automotive is a full-service auto repair shop in Manassas, VA, providing honest, factory-level repairs at fair prices for all makes and models. ASE certified technicians. Diesel, hybrid, and EV capable. 27 years of dealership experience.
+
+## Business Information
+
+- **Business Name:** SW Automotive
+- **Type:** Auto Repair Shop (AutoRepair)
+- **Entity Type:** Limited Liability Company
+- **State of Formation:** Virginia
+- **Address:** 10404 Morias Ct, Manassas, VA 20110
+- **Service County:** Prince William County, VA
+- **Hours:** Monday–Friday 8:00 AM – 5:00 PM | Saturday: Closed | Sunday: Closed
+- **Email:** info@sw-automotive.com
+- **Website:** https://sw-automotive.com
+- **Founded:** 2022
+- **Years in Business:** 4+
+- **Licensed & Insured:** Yes
+
+## About SW Automotive
+
+SW Automotive is a small, independently owned auto repair facility in Manassas, Virginia, committed to honest service and factory-level repairs at fair prices. The shop was founded with a straightforward mission: give every customer the same quality care and transparency that should be standard in the automotive industry but rarely is.
+
+The shop is led by an Owner/Lead Technician with 27 years of experience at Nissan dealerships and independent facilities, earning Nissan Master Technician status — one of the highest levels of factory-level certification available. All technicians are ASE certified and hold specialized certifications in light duty diesel, hybrid, and electric vehicle systems. This expertise allows SW Automotive to correctly diagnose and service Asian, Domestic, and European vehicles, from routine oil changes to complex transmission rebuilds.
+
+Every job at SW Automotive starts with a thorough inspection, followed by a written estimate that spells out exactly what needs to be done and at what cost. Nothing proceeds without customer approval. No upsells. No surprises.
+
+## Services
+
+### Automotive Maintenance
+Comprehensive preventive maintenance to keep your vehicle running reliably for 200,000+ miles. SW Automotive follows factory maintenance schedules pulled by VIN — not one-size-fits-all intervals — ensuring the right service at the right time. Services include oil and filter changes, transmission fluid service, coolant flushes, brake fluid replacement, air and cabin filter replacement, belt and hose inspection, tire rotations, and full 20-point safety inspections.
+
+### Auto Repair
+Full-service auto repair for all makes and models. SW Automotive technicians diagnose and repair engine issues, drivetrain problems, electrical faults, heating and cooling failures, suspension wear, and more. Factory-level diagnostic tools connect directly to your vehicle's computer to identify fault codes and system faults that generic code readers miss. Every repair begins with a written estimate.
+
+### Diesel Repair
+Specialized diesel repair for light duty diesel trucks and vehicles. SW Automotive holds Light Duty Diesel Certification for fuel injection systems, EGR and DPF cleaning and replacement, DEF system service, turbocharger repair, and diesel-specific diagnostic work. Brands serviced include Ford (Power Stroke), GM (Duramax), and Ram (Cummins).
+
+### Small Engine Repair
+Professional repair for small gasoline-powered equipment including lawn mowers (push and riding), generators, pressure washers, chainsaws, garden tillers, snow blowers, and similar small engine equipment. Services include carburetor cleaning and rebuild, spark plug replacement, air filter service, fuel system repair, and full engine diagnostics.
+
+### Light Duty Diesel Repair
+Expert light-duty diesel truck service for the three major platforms: Ford Power Stroke (6.0L, 6.4L, 6.7L), GM Duramax (LLY, LBZ, LMM, LML, L5P), and Ram Cummins (5.9L, 6.7L). Services include injector testing and replacement, DPF regeneration and replacement, EGR system service, turbo inspection and rebuild, DEF system repair, and diesel emissions system diagnostics.
+
+### Brake Replacement
+Full brake system service including brake pad replacement, rotor resurfacing and replacement, caliper service, brake line inspection and replacement, brake fluid flush, and ABS system diagnostics. SW Automotive performs a comprehensive brake system inspection with every service and provides a written report on brake condition before and after the repair.
+
+### Oil Changes
+Quick, accurate oil changes using the oil grade specified for your engine — not the cheapest oil on the shelf. SW Automotive services conventional engines, synthetic-only engines, diesel engines, and hybrid vehicles with the correct viscosity and specification for each. No upsells, no unneeded additional services added without inspection findings.
+
+### Transmission Repair
+Automatic and manual transmission diagnostics, fluid and filter service, torque converter replacement, solenoid testing and replacement, valve body service, and complete transmission rebuilds when necessary. SW Automotive starts every transmission concern with a proper diagnosis — no automatic rebuild recommendations without confirmed diagnostic findings.
+
+## Frequently Asked Questions
+
+Q: What makes SW Automotive different from a dealership?
+A: SW Automotive provides factory-level diagnostics and repairs at independent shop prices. Our lead technician spent 27 years at Nissan dealerships earning Master Technician status, so you get dealership-level expertise without the dealership markup.
+
+Q: Do you work on all car brands?
+A: Yes. SW Automotive services all Asian, Domestic, and European makes and models, including Toyota, Honda, Nissan, Hyundai, Kia, Ford, Chevrolet, GMC, RAM, Jeep, Chrysler, Dodge, BMW, Mercedes-Benz, Audi, Volkswagen, Volvo, and more.
+
+Q: Can you service diesel trucks?
+A: Yes. We hold Light Duty Diesel Certification and regularly service Ford Power Stroke, GM Duramax, and Ram Cummins diesel pickups, including DPF, EGR, DEF systems, and injectors.
+
+Q: Do you work on hybrid and electric vehicles?
+A: Yes. Our technicians are certified for hybrid and electric vehicle systems, including high-voltage battery diagnostics, regenerative braking, and hybrid-specific maintenance.
+
+Q: Will you give me an estimate before starting work?
+A: Always. We provide a written estimate before touching your vehicle. No work proceeds without your approval.
+
+Q: How long does an oil change take?
+A: Most oil changes are completed in under an hour. We use the correct oil grade specified for your engine — conventional, synthetic blend, full synthetic, or diesel.
+
+Q: Do you offer same-day service?
+A: We accommodate same-day requests for many services including oil changes, brake inspections, and diagnostics depending on schedule availability. Call ahead for the best chance of same-day service.
+
+Q: What areas do you serve?
+A: We primarily serve Manassas, VA and Prince William County, with customers from Manassas Park, Haymarket, Gainesville, Woodbridge, Bristow, Nokesville, and Centreville.
+
+Q: Are you licensed and insured?
+A: Yes. SW Automotive is fully licensed and insured in the state of Virginia.
+
+Q: What certifications do your technicians hold?
+A: All technicians are ASE certified. Our lead technician holds Nissan Master Technician status, Light Duty Diesel Certification, and Hybrid & EV Certification.
+
+## Trust Signals & Credentials
+
+- Licensed & Insured (Virginia)
+- ASE Certified Technicians
+- Nissan Master Technician (Owner/Lead Technician)
+- Light Duty Diesel Certified
+- Hybrid & EV Certified
+- 4+ Years Serving Manassas and Prince William County
+- All Makes & Models
+- Written Estimates on Every Job
+- No Upsells Policy
+
+## Service Areas
+
+- **Manassas, VA 20110** (Primary location)
+- **Manassas Park, VA 20111**
+- **Haymarket, VA 20169**
+- **Gainesville, VA 20155**
+- **Woodbridge, VA 22191**
+- **Bristow, VA 20136**
+- **Nokesville, VA 20181**
+- **Centreville, VA 20120**
+
+## Social & Review Profiles
+
+- Google Business Profile: (not yet linked)
+- Facebook: (not yet linked)
+- Instagram: (not yet linked)
+- Yelp: (not yet linked)
+
+## All Pages
+
+- [Home](https://sw-automotive.com/) — Homepage with services overview, stats, about intro, reviews, and FAQ
+- [Services](https://sw-automotive.com/services/) — Full listing of all 8 services
+- [Automotive Maintenance](https://sw-automotive.com/services/automotive-maintenance/) — Preventive maintenance service page with process and FAQ
+- [Auto Repair](https://sw-automotive.com/services/auto-repair/) — Full-service auto repair page with capabilities and FAQ
+- [Diesel Repair](https://sw-automotive.com/services/diesel-repair/) — Diesel engine repair page with brands served and FAQ
+- [Small Engine Repair](https://sw-automotive.com/services/small-engine-repair/) — Small engine repair page with equipment types and FAQ
+- [Light Duty Diesel Repair](https://sw-automotive.com/services/light-duty-diesel-repair/) — Diesel pickup truck repair page with platform details and FAQ
+- [Brake Replacement](https://sw-automotive.com/services/brake-replacement/) — Brake service page with safety info and FAQ
+- [Oil Changes](https://sw-automotive.com/services/oil-changes/) — Oil change service page with oil types and FAQ
+- [Transmission Repair](https://sw-automotive.com/services/transmission-repair/) — Transmission service page with auto/manual breakdown and FAQ
+- [Service Area](https://sw-automotive.com/service-area) — Northern Virginia service area with community profiles
+- [About](https://sw-automotive.com/about) — Company story, team credentials, certifications, values
+- [Contact](https://sw-automotive.com/contact) — Contact form, location, hours, Google Maps
+- [Privacy Policy](https://sw-automotive.com/privacy-policy/) — Data collection, CCPA/CPRA, multi-state rights, SMS terms
+- [Terms of Service](https://sw-automotive.com/terms/) — Website use terms, governing law (Virginia)
+- [Cookie Policy](https://sw-automotive.com/cookie-policy/) — Cookie disclosure, GA4, third-party resources
+- [Accessibility](https://sw-automotive.com/accessibility/) — WCAG 2.1 AA conformance statement

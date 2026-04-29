@@ -106,6 +106,8 @@ $homeFaqs = [
 ];
 
 $schemaMarkup = generateFAQSchema($homeFaqs);
+$schemaType   = 'application/ld+json'; // Schema format; rendered by head.php
+$canonicalTag = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>

@@ -14,6 +14,7 @@ $pageTitle       = 'Cookie Policy | ' . $siteName;
 $pageDescription = 'Cookie Policy for ' . $siteName . ' — what cookies we use and how to control them.';
 $canonicalUrl    = $siteUrl . '/cookie-policy/';
 $currentPage     = 'legal';
+$canonicalTag    = '<link rel="canonical" href="' . $canonicalUrl . '">';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

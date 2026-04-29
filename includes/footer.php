@@ -115,7 +115,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
     <div class="footer-entity" itemscope itemtype="https://schema.org/AutoRepair">
       <meta itemprop="name"      content="<?php echo htmlspecialchars($siteName); ?>">
       <meta itemprop="url"       content="<?php echo htmlspecialchars($domain); ?>">
-      <meta itemprop="telephone" content="<?php echo htmlspecialchars($phone); ?>">
+      <meta itemprop="telephone" content="(703) 555-0100"><?php /* NAP phone */ ?>
       <meta itemprop="address"   content="<?php echo htmlspecialchars($addressFull); ?>">
       <p class="entity-text"><?php echo htmlspecialchars($_entityDesc); ?></p>
     </div>
