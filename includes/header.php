@@ -68,7 +68,7 @@ $_phoneDisplay = !empty($phoneDisplay) ? $phoneDisplay : (!empty($phone) ? forma
           <a href="/contact" <?php if (isActivePage('contact')) echo 'aria-current="page"'; ?>>Contact</a>
         </li>
 
-        <li class="mobile-nav-cta" aria-hidden="true">
+        <li class="mobile-nav-cta">
           <?php if (!empty($phone)): ?>
           <a href="<?php echo $_phoneHref; ?>" class="btn btn-accent">Call <?php echo htmlspecialchars($_phoneDisplay); ?></a>
           <?php endif; ?>

@@ -27,6 +27,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
           <a href="/" class="site-logo footer-logo" aria-label="SW Automotive">
             <img src="<?php echo htmlspecialchars($logoUrl); ?>" alt="SW Automotive" class="logo-img" width="160" height="52" loading="lazy">
           </a>
+          <p class="footer-tagline"><?php echo htmlspecialchars($tagline); ?></p>
           <p>Honest auto repair, diesel service, and preventive maintenance for every make and model in Manassas and Prince William County. Factory-level expertise at a fair price.</p>
           <div class="footer-trust">
             <?php foreach ($trustSignals as $badge): ?>
@@ -153,7 +154,7 @@ $_entityDesc = 'SW Automotive is an auto repair company based in Manassas, VA, s
     <?php if (!empty($phone)): ?>
     <a href="<?php echo $_phoneHref; ?>" class="btn btn-accent">&#128222; Call Now</a>
     <?php endif; ?>
-    <a href="#estimate-form" class="btn btn-primary">Free Estimate</a>
+    <a href="/contact" class="btn btn-primary">Free Estimate</a>
   </div>
 </div>
 
