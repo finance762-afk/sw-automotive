@@ -1,0 +1,87 @@
+{
+  "client_slug": "sw-automotive",
+  "company_name": "SW Automotive",
+  "tagline": "Your Car's Best Friend in Manassas",
+  "tier": "standard",
+  "industry": "auto_repair",
+  "domain": "https://sw-automotive.com",
+  "phone": "",
+  "email": "",
+  "owner_name": "",
+  "address": {
+    "street": "10404 Morias Ct",
+    "city": "Manassas",
+    "state": "VA",
+    "zip": "20110"
+  },
+  "content": {
+    "years": 4,
+    "description": "At SW Automotive, we pride ourselves on providing honest, professional repairs with exceptional customer service delivered in a friendly, welcoming atmosphere. As a small automotive repair facility, we offer fair pricing for factory-level repairs across all vehicle makes and models. Our commitment to transparency and integrity sets us apart in the automotive service industry.\n\nOur team brings exceptional expertise to every repair, led by our Owner/Lead Technician who has 27 years of experience at Nissan dealerships and independent facilities, achieving Nissan Master Technician status. All of our technicians are ASE certified and hold specialized certifications in light duty diesel, hybrid, and electric vehicle systems. This extensive training and experience allows us to expertly service Asian, Domestic, and European makes and models, ensuring your vehicle receives the highest quality care regardless of its origin or complexity.",
+    "certifications": ["ASE Certified", "Nissan Master Technician", "Light Duty Diesel Certified", "Hybrid & EV Certified"],
+    "usps": ["27 years dealership experience", "Factory-level repairs at fair prices", "All makes and models", "ASE certified technicians", "Hybrid and EV capable"]
+  },
+  "design": {
+    "style": "modern",
+    "fonts": { "heading": "Bebas Neue", "body": "Roboto" },
+    "colors": {
+      "primary": "#1a2b3c",
+      "primary_dark": "#111e2b",
+      "primary_rgb": "26, 43, 60",
+      "secondary": "#4d5e6f",
+      "accent": "#06b6d4",
+      "accent_rgb": "6, 182, 212"
+    }
+  },
+  "seo": {
+    "primary_keyword": "auto repair manassas va",
+    "secondary_keywords": [
+      "automotive repair manassas", "car repair manassas", "auto mechanic manassas va",
+      "diesel repair manassas", "brake repair manassas", "transmission repair manassas va",
+      "oil change manassas", "auto repair near me", "car mechanic near me",
+      "automotive service manassas", "auto shop manassas va", "small engine repair manassas"
+    ],
+    "target_radius_miles": 25
+  },
+  "services": [
+    { "name": "Automotive Maintenance", "slug": "automotive-maintenance", "icon": "wrench", "description": "Comprehensive preventive maintenance to keep your vehicle running reliably for 200,000+ miles.", "keywords": ["automotive maintenance Manassas VA", "car maintenance Manassas", "vehicle maintenance Virginia", "auto service Manassas"] },
+    { "name": "Auto Repair", "slug": "auto-repair", "icon": "car", "description": "Full-service auto repair for all makes and models — diagnostics, drivetrain, electrical, and more.", "keywords": ["auto repair Manassas VA", "car repair Manassas", "automotive repair Virginia", "mechanic Manassas"] },
+    { "name": "Diesel Repair", "slug": "diesel-repair", "icon": "fuel", "description": "Specialized diesel engine repair and maintenance for trucks and diesel vehicles.", "keywords": ["diesel repair Manassas VA", "diesel mechanic Manassas", "truck repair Virginia", "diesel engine repair"] },
+    { "name": "Small Engine Repair", "slug": "small-engine-repair", "icon": "settings-2", "description": "Professional repair for lawn mowers, generators, and all small engine equipment.", "keywords": ["small engine repair Manassas VA", "lawn mower repair Manassas", "generator repair Virginia"] },
+    { "name": "Light Duty Diesel Repair", "slug": "light-duty-diesel-repair", "icon": "truck", "description": "Expert light duty diesel service for pickup trucks and small diesel vehicles — all brands.", "keywords": ["light duty diesel repair Manassas", "diesel pickup repair VA", "diesel truck repair Virginia"] },
+    { "name": "Brake Replacement", "slug": "brake-replacement", "icon": "disc", "description": "Brake pads, rotors, calipers, and full brake system inspection — stop confidently.", "keywords": ["brake replacement Manassas VA", "brake repair Manassas", "brake service Virginia", "brake pads Manassas"] },
+    { "name": "Oil Changes", "slug": "oil-changes", "icon": "droplets", "description": "Quick, accurate oil changes using the right oil grade for your engine — no upsells, no hassle.", "keywords": ["oil change Manassas VA", "quick oil change Manassas", "motor oil service Virginia"] },
+    { "name": "Transmission Repair", "slug": "transmission-repair", "icon": "cog", "description": "Automatic and manual transmission diagnostics, service, and repair for all vehicle types.", "keywords": ["transmission repair Manassas VA", "transmission service Manassas", "automatic transmission repair"] }
+  ],
+  "service_areas": [
+    { "city": "Manassas", "state": "VA", "zip": "20110", "slug": "manassas-va", "primary": true },
+    { "city": "Manassas Park", "state": "VA", "zip": "20111", "slug": "manassas-park-va", "primary": false },
+    { "city": "Haymarket", "state": "VA", "zip": "20169", "slug": "haymarket-va", "primary": false },
+    { "city": "Gainesville", "state": "VA", "zip": "20155", "slug": "gainesville-va", "primary": false },
+    { "city": "Woodbridge", "state": "VA", "zip": "22191", "slug": "woodbridge-va", "primary": false },
+    { "city": "Bristow", "state": "VA", "zip": "20136", "slug": "bristow-va", "primary": false },
+    { "city": "Nokesville", "state": "VA", "zip": "20181", "slug": "nokesville-va", "primary": false },
+    { "city": "Centreville", "state": "VA", "zip": "20120", "slug": "centreville-va", "primary": false }
+  ],
+  "reviews": [],
+  "assets": {
+    "logo": "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/logo/1777488955961-6uw3vo-Logo__2_.jpg",
+    "hero_photo": "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489125528-v0msw7-574610223_855128843758998_4100558135674674243_n.jpg",
+    "photos": [
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489117834-7nskhk-481084972_666864315902592_7682232985457324721_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489118932-0bjda4-481056416_666864469235910_8829031006203149386_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489119856-1ybgxb-310074191_175091698429386_8965809722095922256_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489120732-6flc8u-1A89AD25-537B-4A03-8A23-71BDAB7B326F.jpeg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489121516-zgsofk-35A7AB29-CD6D-42C1-9F8B-4DBC0EED858A.jpeg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489122298-9ztwvg-78EFAC10-5F5E-4413-8F0D-C6E19900BE0A.jpeg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489123088-e1la4q-2020-08-21__3_.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489123898-fhfzf2-2020-08-21__4_.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489124708-tbcbgr-2020-08-21.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489125528-v0msw7-574610223_855128843758998_4100558135674674243_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489126638-f4l6be-483962234_666123242659560_7431100441034816467_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489127458-maycxw-483967544_666123539326197_472977410931771103_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489128298-hbkbfb-483851008_666123465992871_8283192258420531462_n.jpg",
+      "https://db.pageone.cloud/storage/v1/object/public/client-assets/sw-automotive/photos/1777489129128-tvaas5-480214652_661491616439862_5774994120961816785_n.jpg"
+    ]
+  },
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/sw-automotive"
+}
