@@ -519,7 +519,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         ][$svc['slug']] ?? ['Expert service','All makes','Written estimates'];
       ?>
       <article class="service-card-with-image <?= $tints[$i % 3] ?> reveal-up reveal-delay-<?= $i+1 ?>" data-animate>
-        <div class="service-card__image"><img src="<?= htmlspecialchars($svc['photo']) ?>" alt="<?= htmlspecialchars($svc['name']) ?> Manassas VA" width="600" height="360" loading="lazy"></div>
+        <div class="service-card__image"><img alt="<?= htmlspecialchars($svc['name']) ?> Manassas VA" src="<?= htmlspecialchars($svc['photo']) ?>" width="600" height="360" loading="lazy"></div>
         <div class="service-card__body">
           <div class="service-card__icon" aria-hidden="true"><i data-lucide="<?= htmlspecialchars($svc['icon']) ?>"></i></div>
           <h3><?= htmlspecialchars($svc['name']) ?></h3>

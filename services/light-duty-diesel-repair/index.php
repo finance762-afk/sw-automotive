@@ -821,8 +821,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       ?>
       <article class="service-card-with-image <?php echo $tint; ?> reveal-up" data-animate="fade-up" data-animate-delay="<?php echo ($idx+1)*100; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['photo']); ?>"
-               alt="<?php echo htmlspecialchars($svc['name']); ?> in Manassas VA"
+          <img alt="<?php echo htmlspecialchars($svc['name']); ?> in Manassas VA"
+               src="<?php echo htmlspecialchars($svc['photo']); ?>"
                width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">

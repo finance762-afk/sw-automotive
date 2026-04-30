@@ -424,8 +424,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <article class="service-card-with-image <?= $tintClass ?> reveal-up <?= $delayClass ?>" data-animate>
         <div class="service-card__image">
           <img
-            src="<?= htmlspecialchars($svc['photo']) ?>"
             alt="<?= htmlspecialchars($svc['name']) ?> in Manassas VA — SW Automotive"
+            src="<?= htmlspecialchars($svc['photo']) ?>"
             width="600" height="360"
             loading="lazy"
           >
