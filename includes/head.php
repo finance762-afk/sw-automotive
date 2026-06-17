@@ -1,5 +1,5 @@
-<?php require_once __DIR__ . "/site-config.php"; ?>
 <?php
+require_once __DIR__ . '/site-config.php';
 /**
  * SW Automotive — Head Component
  *
@@ -254,5 +254,6 @@ if (isset($currentPage) && $currentPage === 'home') {
   </script>
 <?php endif; ?>
 
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>
