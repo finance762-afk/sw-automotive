@@ -32,6 +32,7 @@ Options -MultiViews
 
     # Serve .php file if request has no extension and isn't a real file
     RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}/$1.php -f
     RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
     # 301 redirect: strip .php extension from direct .php requests
