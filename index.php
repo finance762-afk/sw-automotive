@@ -1012,6 +1012,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <?php if (empty($GLOBALS['__js_shield'])) { $GLOBALS['__js_shield'] = 1; ?>
         <script>(function(){var d=document,f=function(){var i,e=d.querySelectorAll('.js-shield-field');for(i=0;i<e.length;i++)e[i].value='1';d.removeEventListener('pointerdown',f);d.removeEventListener('keydown',f);};d.addEventListener('pointerdown',f);d.addEventListener('keydown',f);})();</script>
         <?php } ?>
+        <?php if (empty($GLOBALS['__p1_consent_css'])) { $GLOBALS['__p1_consent_css'] = 1; ?>
+        <style>
+        .p1-consent{margin:14px 0;text-align:left}
+        .p1-consent-set{border:0;margin:0;padding:0}
+        .p1-consent-legend{font-size:13px;font-weight:600;padding:0;margin-bottom:6px}
+        .p1-consent-item{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;font-size:12px;line-height:1.5;cursor:pointer}
+        .p1-consent-item input{margin:2px 0 0;flex:0 0 auto;width:16px;height:16px;cursor:pointer}
+        .p1-consent-line{display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.45;cursor:pointer}
+        .p1-consent-line input{margin:2px 0 0;flex:0 0 auto;width:16px;height:16px;cursor:pointer}
+        .p1-consent a{text-decoration:underline}
+        </style>
+        <?php } ?>
+        <!-- TCPA consent — terms_accepted is REQUIRED by the leads endpoint -->
+        <div class="p1-consent">
+          <label class="p1-consent-line">
+            <input type="checkbox" name="terms_accepted" value="yes" required>
+            <span>I agree to the <a href="/terms/">Terms of Service</a> and <a href="/privacy-policy/">Privacy Policy</a> and consent to be contacted about my request. *</span>
+          </label>
+        </div>
         <button type="submit" class="btn btn-accent btn-block">
           <i data-lucide="send"></i>
           Get My Free Estimate
