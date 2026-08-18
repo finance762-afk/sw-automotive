@@ -206,7 +206,7 @@ if (isset($currentPage) && $currentPage === 'home') {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <?php endif; ?>
 
-  <link rel="stylesheet" href="/assets/css/framework.css">
+  <link rel="stylesheet" href="/assets/css/framework.css?v=p1m1">
 
   <meta name="theme-color" content="#1a2b3c">
 
