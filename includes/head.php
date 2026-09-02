@@ -114,18 +114,6 @@ $_localBusinessSchema = [
     ],
 ];
 
-// AggregateRating — only when review data exists
-if (!empty($reviews)) {
-    $totalRating = array_sum(array_column($reviews, 'rating'));
-    $_localBusinessSchema['aggregateRating'] = [
-        '@type'       => 'AggregateRating',
-        'ratingValue' => round($totalRating / count($reviews), 1),
-        'reviewCount' => count($reviews),
-        'bestRating'  => '5',
-        'worstRating' => '1',
-    ];
-}
-
 if (!empty($_sameAs)) {
     $_localBusinessSchema['sameAs'] = $_sameAs;
 }
